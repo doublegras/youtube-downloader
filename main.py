@@ -34,7 +34,7 @@ try:
 	)
 except Exception as err:
 	print('unvalid url')
-	print(e)
+	print(err)
 	exit()
 
 print('\ntitle: ' + video.title)
